@@ -1,5 +1,5 @@
 # ChatGPT-RetrievalQA
-A dataset for training Question Answering Retrieval models on ChatGPT responses and evaluation on human responses
+A dataset for training/evaluating Question Answering Retrieval models on ChatGPT responses with the possibility to training/evaluating on real human responses.
 
 ### Answer ranking dataset
 
