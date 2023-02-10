@@ -34,4 +34,8 @@ We will use a different set of test queries and we will use relevance judges to 
 
 P.S: Given each query and positive answer, 1000 negative answers have been sampled randomly.
 
-### Code for creating the dataset: [ChatGPT-RetrievalQA-Dataset-Creator](https://colab.research.google.com/drive/1OK8H_SYUD7n_LKTNj33kANP4t2fLcmGt?usp=sharing)
+## Code for creating the dataset
+[ChatGPT-RetrievalQA-Dataset-Creator](https://colab.research.google.com/drive/1OK8H_SYUD7n_LKTNj33kANP4t2fLcmGt?usp=sharing)
+
+## Dataset source and copyright
+Special thanks to the [HC3 team](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) for releasing Human ChatGPT Comparison Corpus (HC3) corpus. Our data is created based on their dataset and follows the license of them.
