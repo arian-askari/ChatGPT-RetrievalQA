@@ -32,4 +32,6 @@ We will use a different set of test queries and we will use relevance judges to 
 | Top-C 1000 Test                              | [top1000.test.tar.gz](https://dropbox.com/top1000.test.tar.gz)                           |    2.5 GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
 
 
+P.S: Given each query and positive answer, 1000 negative answers have been sampled randomly.
+
 ### Code for creating the dataset: [ChatGPT-RetrievalQA-Dataset-Creator](https://colab.research.google.com/drive/1OK8H_SYUD7n_LKTNj33kANP4t2fLcmGt?usp=sharing)
