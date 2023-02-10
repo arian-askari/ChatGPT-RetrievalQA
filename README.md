@@ -22,10 +22,10 @@ We will use a different set of test queries and we will use relevance judges to 
 | Validation-H Triple                       | [triples.train.small.tar.gz](https://drive.google.com/file/d/1-PnmO8fG_HgcBeWS5Akf9tc67VFyMQWz/view?usp=share_link)           |   2.02 GB |                        1,468,526  | tsv: query, positive passage, negative passage |
 | Train-H Triples QID PID Format               | [train_h_qidpidtriples.tsv](https://drive.google.com/file/d/1-G3GCx50PnwF4LaZAHcHkmcmBpe81j5i/view?usp=share_link) |    921.7 MB |                       40,641,772  | tsv: qid, positive pid, negative pid |
 | Validation-H Triples QID PID Format               | [valid_h_qidpidtriples.tsv](https://drive.google.com/file/d/1-SITWpMrKGDW7RZiXjntJjKa7gcRpSHB/view?usp=share_link) |    X GB |                       1,468,526  | tsv: qid, positive pid, negative pid |
-| Train-C Triples                       | [triples.train.small.tar.gz](https://dropbox.com/triples.train.tar.gz)           |  X GB |                        xxx,yyy,zzz  | tsv: query, positive passage, negative passage |
-| Validation-C Triple                       | [triples.train.small.tar.gz](https://dropbox.com/triples.train.tar.gz)           |   X GB |                        xxx,yyy,zzz  | tsv: query, positive passage, negative passage |
-| Train-C Triples QID PID Format               | [qidpidtriples.train.full.2.tsv.gz](https://dropbox.com/qidpidtriples.train.full.2.tsv.gz) |    X GB |                       xxx,yyy,zzz  | tsv: qid, positive pid, negative pid |
-| Validation-C Triples QID PID Format               | [qidpidtriples.train.full.2.tsv.gz](https://dropbox.com/qidpidtriples.train.full.2.tsv.gz) |    X GB |                       xxx,yyy,zzz  | tsv: qid, positive pid, negative pid |
+| Train-C Triples                       | [triples.train.small.tar.gz](https://dropbox.com/triples.train.tar.gz)           |  38.0 GB |                        18,486,223  | tsv: query, positive passage, negative passage |
+| Validation-C Triple                       | [valid_c_triples.tsv](https://drive.google.com/file/d/1-mx01uFJI3HGAjdfbGQq2gQqvEsPHFcN/view?usp=share_link)           |   1.32 GB |                        672,659  | tsv: query, positive passage, negative passage |
+| Train-C Triples QID PID Format               | [train_c_qidpidtriples.tsv](https://drive.google.com/file/d/1-UJjrGbbUza0pw4bCIZhbTvnzkUVwEig/view?usp=share_link) |    429.9 MB |                       18,486,223  | tsv: qid, positive pid, negative pid |
+| Validation-C Triples QID PID Format               | [valid_c_qidpidtriples.tsv](https://drive.google.com/file/d/1-nhumklMpM7VDRkZPDeh56MJmoGe8DSn/view?usp=share_link) |    16.4 MB |                       672,659  | tsv: qid, positive pid, negative pid |
 
 
 P.S: Given each query and positive answer, 1000 negative answers have been sampled randomly.
