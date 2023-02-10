@@ -30,12 +30,12 @@ We will use a different set of test queries and we will use relevance judges to 
 ### Answer re-anking dataset (comming soon)
 | Description                                           | Filename                                                                                                                | File size |                        Num Records | Format                                                         |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------:|-----------------------------------:|----------------------------------------------------------------|
-| Top-H 1000 Train                            | [top1000.train.tar.gz](https://dropbox.com/top1000.train.tar.gz)                       |  175.0 GB |                       xxx,yyy,zzz  | tsv: qid, pid, query, passage |
-| Top-H 1000 Validation                              | [top1000.dev.tar.gz](https://dropbox.com/top1000.dev.tar.gz)                           |    2.5 GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
-| Top-H 1000 Test                              | [top1000.test.tar.gz](https://dropbox.com/top1000.test.tar.gz)                           |    2.5 GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
-| Top-C 1000 Train                            | [top1000.train.tar.gz](https://dropbox.com/top1000.train.tar.gz)                       |  175.0 GB |                       xxx,yyy,zzz  | tsv: qid, pid, query, passage |
-| Top-C 1000 Validation                              | [top1000.dev.tar.gz](https://dropbox.com/top1000.dev.tar.gz)                           |    2.5 GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
-| Top-C 1000 Test                              | [top1000.test.tar.gz](https://dropbox.com/top1000.test.tar.gz)                           |    2.5 GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
+| Top-H 1000 Train                            | [top1000.train.tar.gz](https://dropbox.com/top1000.train.tar.gz)                       |  xxx GB |                       xxx,yyy,zzz  | tsv: qid, pid, query, passage |
+| Top-H 1000 Validation                              | [top1000.dev.tar.gz](https://dropbox.com/top1000.dev.tar.gz)                           |    xxx GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
+| Top-H 1000 Test                              | [top1000.test.tar.gz](https://dropbox.com/top1000.test.tar.gz)                           |    xxx GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
+| Top-C 1000 Train                            | [top1000.train.tar.gz](https://dropbox.com/top1000.train.tar.gz)                       |  xxx GB |                       xxx,yyy,zzz  | tsv: qid, pid, query, passage |
+| Top-C 1000 Validation                              | [top1000.dev.tar.gz](https://dropbox.com/top1000.dev.tar.gz)                           |   xxx GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
+| Top-C 1000 Test                              | [top1000.test.tar.gz](https://dropbox.com/top1000.test.tar.gz)                           |    xxx GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
 P.S: Given each query and positive answer, 1000 negative answers have been sampled randomly.
 
 ## Code for creating the dataset
