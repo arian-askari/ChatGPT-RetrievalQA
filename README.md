@@ -47,3 +47,4 @@ P.S: Given each query and positive answer, 1000 negative answers have been sampl
 
 ## Dataset source and copyright
 Special thanks to the [HC3 team](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) for releasing Human ChatGPT Comparison Corpus (HC3) corpus. Our data is created based on their dataset and follows the license of them.
+
