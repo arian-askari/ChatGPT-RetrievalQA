@@ -4,7 +4,7 @@ A dataset for training/evaluating Question Answering Retrieval models on ChatGPT
 ### Answer ranking dataset
 
 This dataset is based on the public [HC3 dataset](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection), although our experimental setup and evaluation will be quite different.
-We will use a different set of test queries and we will use relevance judges to evaluate the quality of answer ranking retrieval.
+We split the data into the train/validation/test set in order to train/evaluate the answer retrieval model on ChatGPT/Human. We take into account the actual response by human/ChatGPT to the question as the relevance judges to evaluate the quality of answer ranking retrieval. In our main experiments, we train on ChatGPT responses and evaluate human responses.
 
 | Description                                           | Filename                                                                                                                | File size |                        Num Records | Format                                                         |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------:|-----------------------------------:|----------------------------------------------------------------|
