@@ -31,21 +31,20 @@ We split the data in a train, validation, and test set in order to train/evaluat
 | Validation-C Triples QID PID Format               | [valid_c_qidpidtriples.tsv](https://drive.google.com/file/d/1-nhumklMpM7VDRkZPDeh56MJmoGe8DSn/view?usp=share_link) |    16.4 MB |                       672,659  | tsv: qid, positive pid, negative pid |
 
 
-We release the training and validation data in Triples format to facilitate training. The Triples files to train on ChatGPT responses are:  "train_c_triples.tsv" and "valid_c_triples.tsv". Moreover, we release the triples based on human responses so everyone could compare training on ChatGPT VS training on human responses ("train_h_triples.tsv" and "valid_h_triples.tsv" files).
-
-P.S: Given each query and positive answer, 1000 negative answers have been sampled randomly.
+We release the training and validation data in Triples format to facilitate training. The Triples files to train on ChatGPT responses are:  "train_c_triples.tsv" and "valid_c_triples.tsv". Moreover, we release the triples based on human responses so everyone could compare training on ChatGPT VS training on human responses ("train_h_triples.tsv" and "valid_h_triples.tsv" files). Given each query and positive answer, 1000 negative answers have been sampled randomly.
 
 
 ### Answer re-anking dataset (coming soon)
 | Description                                           | Filename                                                                                                                | File size |                        Num Records | Format                                                         |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------:|-----------------------------------:|----------------------------------------------------------------|
-| Top-H 1000 Train                            | [top1000.train.tar.gz](https://dropbox.com/top1000.train.tar.gz)                       |  xxx GB |                       16,774,122  | tsv: qid, pid, query, passage |
-| Top-H 1000 Validation                              | [top1000.dev.tar.gz](https://dropbox.com/top1000.dev.tar.gz)                           |    xxx GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
+| Top-H 1000 Train                            | [top_1000_h_train.run](https://drive.google.com/file/d/1aZiXlRh0oSTsv0aBGMzPhVH8wT1RAgxS/view?usp=share_link)                       |  645.3 MB |                       16,774,122  | tsv: qid, pid, query, passage |
+| Top-H 1000 Validation                              | [top_1000_h_valid.run](https://drive.google.com/file/d/1-NkD-LFqx0BnEZcBAPBl3al56SjrstIn/view?usp=share_link)                           |    23.7 MB |                         605,956  | tsv: qid, pid, query, passage |
 | Top-H 1000 Test                              | [top_1000_c_test.run](https://dropbox.com/top1000.test.tar.gz)                           |    xxx GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
 | Top-C 1000 Train                            | [top1000.train.tar.gz](https://dropbox.com/top1000.train.tar.gz)                       |  xxx GB |                       xxx,yyy,zzz  | tsv: qid, pid, query, passage |
 | Top-C 1000 Validation                              | [top1000.dev.tar.gz](https://dropbox.com/top1000.dev.tar.gz)                           |   xxx GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
 | Top-C 1000 Test                              | [top1000.test.tar.gz](https://dropbox.com/top1000.test.tar.gz)                           |    xxx GB |                         xxx,yyy,zzz  | tsv: qid, pid, query, passage |
 
+*Note*: We utilize BM25 similarity function of Elasticsearch in order to rank top-1000 documents given a question (i.e., query). However, for some queries, less than 1000 documents will be retrieved which means there were less than 1000 documents with at least one word matched with the query in the collection.
 
 ## BM25 ranking effectiveness on the Qrels-H Test 
 Evaluating the effectiveness of BM25 on answer retrieval on the test of responses that are written by human: 
