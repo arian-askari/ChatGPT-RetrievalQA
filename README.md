@@ -71,7 +71,7 @@ We train BERT on the response that are produced by ChatGPT (using queries.tsv, c
 
 Coming soon.
 
-## Collection of responses produced by other LLMs
+## Collection of responses produced by other Large Language Models (LLMs)
 
 Coming soon
 
