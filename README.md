@@ -1,10 +1,10 @@
 # ChatGPT-RetrievalQA
-A dataset for training/evaluating Question Answering Retrieval models on ChatGPT responses with the possibility to training/evaluating on real human responses.
+A dataset for training/evaluating Question Answering (QA) Retrieval models on ChatGPT responses with the possibility to training/evaluating on real human responses.
 
 ### Answer ranking dataset
 
-This dataset is based on the public [HC3 dataset](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection), although our experimental setup and evaluation will be quite different.
-We split the data into the train/validation/test set in order to train/evaluate the answer retrieval model on ChatGPT/Human. We take into account the actual response by human/ChatGPT to the question as the relevance judges to evaluate the quality of answer ranking retrieval. In our main experiments, we train on ChatGPT responses and evaluate human responses.
+This dataset is based on the public [HC3 dataset](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection), although our experimental setup and evaluation will be different.
+We split the data into the train/validation/test set in order to train/evaluate the answer retrieval model on ChatGPT or Human answers. We take into account the actual response by human/ChatGPT to the question as the relevance assessments to evaluate the quality of answer ranking retrieval. In our main experiments, we train on ChatGPT responses and evaluate human responses.
 
 | Description                                           | Filename                                                                                                                | File size |                        Num Records | Format                                                         |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------:|-----------------------------------:|----------------------------------------------------------------|
@@ -31,7 +31,7 @@ We split the data into the train/validation/test set in order to train/evaluate 
 P.S: Given each query and positive answer, 1000 negative answers have been sampled randomly.
 
 
-### Answer re-anking dataset (comming soon)
+### Answer re-anking dataset (coming soon)
 | Description                                           | Filename                                                                                                                | File size |                        Num Records | Format                                                         |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------:|-----------------------------------:|----------------------------------------------------------------|
 | Top-H 1000 Train                            | [top1000.train.tar.gz](https://dropbox.com/top1000.train.tar.gz)                       |  xxx GB |                       16,774,122  | tsv: qid, pid, query, passage |
