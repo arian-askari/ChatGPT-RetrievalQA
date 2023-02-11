@@ -71,13 +71,14 @@ We train BERT on the response that are produced by ChatGPT (using queries.tsv, c
 
 Coming soon.
 
+## Collection of responses produced by other LLMs
+
+Coming soon
+
 ## Code for creating the dataset
 [ChatGPT-RetrievalQA-Dataset-Creator](https://colab.research.google.com/drive/1OK8H_SYUD7n_LKTNj33kANP4t2fLcmGt?usp=sharing) ![](https://colab.research.google.com/assets/colab-badge.svg)
 
 [ChatGPT-RetrievalQA-Evlaution](https://colab.research.google.com/drive/1ywQaXVcOFGod6WR3Rq4owIxblXmTK7dF?usp=sharing) ![](https://colab.research.google.com/assets/colab-badge.svg)
-## Collection of responses produced by other LLMs
-
-Coming soon
 
 ## Dataset source and copyright
 Special thanks to the [HC3 team](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) for releasing Human ChatGPT Comparison Corpus (HC3) corpus. Our data is created based on their dataset and follows the license of them.
