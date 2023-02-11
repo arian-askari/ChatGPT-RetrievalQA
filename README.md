@@ -35,7 +35,7 @@ We split the data in a train, validation, and test set in order to train/evaluat
 We release the training and validation data in Triples format to facilitate training. The Triples files to train on ChatGPT responses are:  "train_c_triples.tsv" and "valid_c_triples.tsv". Moreover, we release the triples based on human responses so everyone could compare training on ChatGPT VS training on human responses ("train_h_triples.tsv" and "valid_h_triples.tsv" files). Given each query and positive answer, 1000 negative answers have been sampled randomly.
 
 
-### Answer re-anking dataset
+### Answer re-ranking dataset
 | Description                                           | Filename                                                                                                                | File size |                        Num Records                                                           |
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------:|-----------------------------------:|----------------------------------------------------------------|
 | Top-H 1000 Train                            | [top_1000_h_train.run](https://drive.google.com/file/d/1aZiXlRh0oSTsv0aBGMzPhVH8wT1RAgxS/view?usp=share_link)                       |  645.3 MB |                       16,774,122   |
