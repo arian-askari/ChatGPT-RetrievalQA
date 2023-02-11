@@ -35,15 +35,17 @@ We split the data in a train, validation, and test set in order to train/evaluat
 We release the training and validation data in Triples format to facilitate training. The Triples files to train on ChatGPT responses are:  "train_c_triples.tsv" and "valid_c_triples.tsv". Moreover, we release the triples based on human responses so everyone could compare training on ChatGPT VS training on human responses ("train_h_triples.tsv" and "valid_h_triples.tsv" files). Given each query and positive answer, 1000 negative answers have been sampled randomly.
 
 
-### Answer re-anking dataset (coming soon)
-| Description                                           | Filename                                                                                                                | File size |                        Num Records | Format                                                         |
-|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------:|-----------------------------------:|----------------------------------------------------------------|
-| Top-H 1000 Train                            | [top_1000_h_train.run](https://drive.google.com/file/d/1aZiXlRh0oSTsv0aBGMzPhVH8wT1RAgxS/view?usp=share_link)                       |  645.3 MB |                       16,774,122  | tsv: qid, pid, query, passage |
-| Top-H 1000 Validation                              | [top_1000_h_valid.run](https://drive.google.com/file/d/1-NkD-LFqx0BnEZcBAPBl3al56SjrstIn/view?usp=share_link)                           |    23.7 MB |                         605,956  | tsv: qid, pid, query, passage |
-| Top-H 1000 Test                              | [top_1000_h_test.run](https://drive.google.com/file/d/1-M9jVYLuzhcGW8AfsRXw7d86M5xhdqdL/view?usp=share_link)                           |    270.6 MB |                         692,0845  | tsv: qid, pid, query, passage |
-| Top-C 1000 Train                            | [top_1000_c_train.run](https://drive.google.com/file/d/1-PdmL3dX1-oVrw8TQKpLxT6RyZSmK-Wm/view?usp=share_link)                       |  646.6 MB |                       16,768,032  | tsv: qid, pid, query, passage |
-| Top-C 1000 Validation                              | [top_1000_c_valid.run](https://drive.google.com/file/d/1-UzOgQnwxM6K-L-2EhU9zOrwy3lZ8T3D/view?usp=share_link)                           |   23.7 MB |                         605,793  | tsv: qid, pid, query, passage |
-| Top-C 1000 Test                              | [top_1000_c_test.run](https://drive.google.com/file/d/1-dzQM516jC5miaAMZlZosaAE7E-vv6VK/view?usp=share_link)                           |    271.1 MB |                         6,917,616  | tsv: qid, pid, query, passage |
+### Answer re-anking dataset
+| Description                                           | Filename                                                                                                                | File size |                        Num Records                                                           |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------:|-----------------------------------:|----------------------------------------------------------------|
+| Top-H 1000 Train                            | [top_1000_h_train.run](https://drive.google.com/file/d/1aZiXlRh0oSTsv0aBGMzPhVH8wT1RAgxS/view?usp=share_link)                       |  645.3 MB |                       16,774,122   |
+| Top-H 1000 Validation                              | [top_1000_h_valid.run](https://drive.google.com/file/d/1-NkD-LFqx0BnEZcBAPBl3al56SjrstIn/view?usp=share_link)                           |    23.7 MB |                         605,956  |
+| Top-H 1000 Test                              | [top_1000_h_test.run](https://drive.google.com/file/d/1-M9jVYLuzhcGW8AfsRXw7d86M5xhdqdL/view?usp=share_link)                           |    270.6 MB |                         692,0845 |
+| Top-C 1000 Train                            | [top_1000_c_train.run](https://drive.google.com/file/d/1-PdmL3dX1-oVrw8TQKpLxT6RyZSmK-Wm/view?usp=share_link)                       |  646.6 MB |                       16,768,032 |
+| Top-C 1000 Validation                              | [top_1000_c_valid.run](https://drive.google.com/file/d/1-UzOgQnwxM6K-L-2EhU9zOrwy3lZ8T3D/view?usp=share_link)                           |   23.7 MB |                         605,793  |
+| Top-C 1000 Test                              | [top_1000_c_test.run](https://drive.google.com/file/d/1-dzQM516jC5miaAMZlZosaAE7E-vv6VK/view?usp=share_link)                           |    271.1 MB |                         6,917,616 |
+
+The format of the run files of the Answer re-ranking dataset is in TREC run format.
 
 *Note*: We utilize BM25 similarity function of Elasticsearch in order to rank top-1000 documents given a question (i.e., query). However, for some queries, less than 1000 documents will be retrieved which means there were less than 1000 documents with at least one word matched with the query in the collection.
 
