@@ -1,4 +1,7 @@
 # ChatGPT-RetrievalQA
+![](https://img.shields.io/badge/ChatGPT-RetrievalQA-brightgreen)
+![](https://img.shields.io/badge/Language-English-blue)
+
 A dataset for training/evaluating Question Answering (QA) Retrieval models on ChatGPT responses with the possibility to training/evaluating on real human responses.
 
 ### Answer ranking dataset
