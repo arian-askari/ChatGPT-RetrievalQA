@@ -4,8 +4,10 @@
 
 A dataset for training/evaluating Question Answering (QA) Retrieval models on ChatGPT responses with the possibility to training/evaluating on real human responses. By hitting the star, watch, and fork buttons, you will not only stay up to date with the latest developments but also show your support and motivate us to keep working on extending this dataset!
 
+## What we did in simple terms:
+Given a set of questions and corresponding ChatGPT's and humans' responses, we make two separate collections: one from ChatGPT and one from humans. By doing so, we provide several analysis opportunities from an information retrieval perspective regarding the usefulness of ChatGPT responses for building retrieval models or for evaluating their effectiveness. We provie the dataset for both end-to-end retrieval and re-ranking setup. In order to prevent limitting the experimental setup, we organize all the files separately per ChatGPT and human to give flexibility to other analyses.
 
-### Answer ranking dataset
+## Answer ranking dataset
 
 This dataset is based on the public [HC3 dataset](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection), although our experimental setup and evaluation will be different.
 We split the data in a train, validation, and test set in order to train/evaluate answer retrieval models on ChatGPT or human answers. We store the actual response by human/ChatGPT as the relevant answer. For training, a set of random responses can be used as non-relevant answers. In our main experiments, we train on ChatGPT responses and evaluate on human responses.
@@ -35,7 +37,7 @@ We split the data in a train, validation, and test set in order to train/evaluat
 We release the training and validation data in Triples format to facilitate training. The Triples files to train on ChatGPT responses are:  "train_c_triples.tsv" and "valid_c_triples.tsv". Moreover, we release the triples based on human responses so everyone could compare training on ChatGPT VS training on human responses ("train_h_triples.tsv" and "valid_h_triples.tsv" files). Given each query and positive answer, 1000 negative answers have been sampled randomly.
 
 
-### Answer re-ranking dataset
+## Answer re-ranking dataset
 | Description                                           | Filename                                                                                                                | File size |                        Num Records                                                           |
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------:|-----------------------------------:|----------------------------------------------------------------|
 | Top-H 1000 Train                            | [top_1000_h_train.run](https://drive.google.com/file/d/1aZiXlRh0oSTsv0aBGMzPhVH8wT1RAgxS/view?usp=share_link)                       |  645.3 MB |                       16,774,122   |
