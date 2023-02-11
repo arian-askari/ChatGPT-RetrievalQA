@@ -45,12 +45,12 @@ P.S: Given each query and positive answer, 1000 negative answers have been sampl
 ## BM25 ranking effectiveness on the Qrels-H Test 
 Evaluating the effectiveness of BM25 on answer retrieval on the test of responses that are written by human: 
 
-Comming soon.
+Coming soon.
 
 ## BERT re-ranking effectiveness on the Qrels-H Test 
 We train BERT on the response that are produced by ChatGPT (using queries.tsv, collection_c.tsv, train_c_triples.tsv, valid_c_triples.tsv, qrels_c_train.tsv, and qrels_c_valid.tsv files). Next, we evaluate the effectiveness of BRET as an answer re-ranker model on human responses (using queries.tsv, collection_h.tsv, top_1000_c_test.run, and qrels_h_test.tsv). By doing so, we answer to the following question: "What is the effectiveness of an answer retrieval model that is trained on ChatGPT responses, when we evaluate it on human responses?"
 
-Comming soon.
+Coming soon.
 
 ## Code for creating the dataset
 [ChatGPT-RetrievalQA-Dataset-Creator](https://colab.research.google.com/drive/1OK8H_SYUD7n_LKTNj33kANP4t2fLcmGt?usp=sharing)
