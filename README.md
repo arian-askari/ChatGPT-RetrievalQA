@@ -7,6 +7,10 @@ A dataset for training/evaluating Question Answering (QA) Retrieval models on Ch
 ## What we did in simple terms
 Given a set of questions and corresponding ChatGPT's and humans' responses, we make two separate collections: one from ChatGPT and one from humans. By doing so, we provide several analysis opportunities from an **information retrieval perspective** regarding the usefulness of ChatGPT responses for building retrieval models or for evaluating their effectiveness. We provie the dataset for both end-to-end retrieval and re-ranking setup. In order to prevent limitting the experimental setup, we organize all the files separately per ChatGPT and human to give flexibility to other analyses. 
 
+## Why do we need still to do retrieval when ChatGPT produces response?
+To be written.
+
+
 ## Answer ranking dataset
 
 This dataset is based on the public [HC3 dataset](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection), although our experimental setup and evaluation will be different.
