@@ -66,6 +66,11 @@ The format of the run files of the Answer re-ranking dataset is in TREC run form
 | Validation      | Human           |   .154   |   .200  |    .228   |    .370    |     .523    |
 |                 | ChatGPT         |   .386   |   .410  |    .539   |    .847    |     .904    |
 
+#### Code for the above evaluation:
+
+[ChatGPT-RetrievalQA-Evlaution](https://colab.research.google.com/drive/1ywQaXVcOFGod6WR3Rq4owIxblXmTK7dF?usp=sharing) ![](https://colab.research.google.com/assets/colab-badge.svg)
+
+
 ## BERT re-ranking effectiveness on the Qrels-H Test 
 We train BERT on the responses that are produced by ChatGPT (using queries.tsv, collection_c.tsv, train_c_triples.tsv, valid_c_triples.tsv, qrels_c_train.tsv, and qrels_c_valid.tsv files). Next, we evaluate the effectiveness of BRET as an answer re-ranker model on human responses (using queries.tsv, collection_h.tsv, top_1000_c_test.run, and qrels_h_test.tsv). By doing so, we answer to the following question: "What is the effectiveness of an answer retrieval model that is trained on ChatGPT responses, when we evaluate it on human responses?"
 
@@ -77,8 +82,6 @@ Coming soon
 
 ## Code for creating the dataset
 [ChatGPT-RetrievalQA-Dataset-Creator](https://colab.research.google.com/drive/1OK8H_SYUD7n_LKTNj33kANP4t2fLcmGt?usp=sharing) ![](https://colab.research.google.com/assets/colab-badge.svg)
-
-[ChatGPT-RetrievalQA-Evlaution](https://colab.research.google.com/drive/1ywQaXVcOFGod6WR3Rq4owIxblXmTK7dF?usp=sharing) ![](https://colab.research.google.com/assets/colab-badge.svg)
 
 ## Dataset source and copyright
 Special thanks to the [HC3 team](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) for releasing Human ChatGPT Comparison Corpus (HC3) corpus. Our data is created based on their dataset and follows the license of them.
