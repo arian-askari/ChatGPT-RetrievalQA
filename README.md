@@ -1,4 +1,4 @@
-# ChatGPT-RetrievalQA
+# ChatGPT-RetrievalQA: Can ChatGPT's responses act as training data for Q&A retrieval models?
 ![](https://img.shields.io/badge/ChatGPT-RetrievalQA-brightgreen)
 ![](https://img.shields.io/badge/Language-English-blue)
 
