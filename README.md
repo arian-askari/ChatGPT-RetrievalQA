@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/ChatGPT-RetrievalQA-brightgreen)
 ![](https://img.shields.io/badge/Language-English-blue)
 
-A dataset for training and evaluating Question Answering (QA) Retrieval models on ChatGPT responses with the possibility of training/evaluating on real human responses. //By hitting the star, watch, and fork buttons, you will not only stay up to date with the latest developments but also show your support and motivate us to keep working on extending this dataset!
+A dataset for training and evaluating Question Answering (QA) Retrieval models on ChatGPT responses with the possibility of training/evaluating on real human responses. %By hitting the star, watch, and fork buttons, you will not only stay up to date with the latest developments but also show your support and motivate us to keep working on extending this dataset!
 
 ## What we did in simple terms
 Given a set of questions and corresponding ChatGPT's and humans' responses, we make two separate collections: one from ChatGPT and one from humans. By doing so, we provide several analysis opportunities from an **information retrieval perspective** regarding the usefulness of ChatGPT responses for building retrieval models or for evaluating their effectiveness. We provide the dataset for both end-to-end retrieval and re-ranking setup. In order to prevent limiting the experimental setup, we organize all the files separately per ChatGPT and human to give flexibility to other analyses. 
