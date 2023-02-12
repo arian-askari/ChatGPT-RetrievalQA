@@ -1,5 +1,5 @@
 # ChatGPT-RetrievalQA: Can ChatGPT's responses act as training data for Q&A retrieval models?
-![](https://img.shields.io/badge/ChatGPT-RetrievalQA-brightgreen)
+[![](https://img.shields.io/badge/ChatGPT-RetrievalQA-brightgreen)](https://github.com/arian-askari/ChatGPT-RetrievalQA)
 ![](https://img.shields.io/badge/Language-English-blue)
 
 A dataset for training and evaluating Question Answering (QA) Retrieval models on ChatGPT responses with the possibility of training/evaluating on real human responses. <!--By hitting the star, watch, and fork buttons, you will not only stay up to date with the latest developments but also show your support and motivate us to keep working on extending this dataset!-->
@@ -68,7 +68,7 @@ The format of the run files of the Answer re-ranking dataset is in TREC run form
 
 #### Code for the above evaluation:
 
-[ChatGPT-RetrievalQA-Evlaution](https://colab.research.google.com/drive/1ywQaXVcOFGod6WR3Rq4owIxblXmTK7dF?usp=sharing) ![](https://colab.research.google.com/assets/colab-badge.svg)
+[ChatGPT-RetrievalQA-Evlaution](https://colab.research.google.com/drive/1ywQaXVcOFGod6WR3Rq4owIxblXmTK7dF?usp=sharing) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ywQaXVcOFGod6WR3Rq4owIxblXmTK7dF?usp=sharing) 
 
 
 ## BERT re-ranking effectiveness on the Qrels-H Test 
@@ -81,7 +81,7 @@ Coming soon.
 Coming soon
 
 ## Code for creating the dataset
-[ChatGPT-RetrievalQA-Dataset-Creator](https://colab.research.google.com/drive/1OK8H_SYUD7n_LKTNj33kANP4t2fLcmGt?usp=sharing) ![](https://colab.research.google.com/assets/colab-badge.svg)
+[ChatGPT-RetrievalQA-Dataset-Creator](https://colab.research.google.com/drive/1OK8H_SYUD7n_LKTNj33kANP4t2fLcmGt?usp=sharing) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OK8H_SYUD7n_LKTNj33kANP4t2fLcmGt?usp=sharing) 
 
 ## Dataset source and copyright
 Special thanks to the [HC3 team](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) for releasing Human ChatGPT Comparison Corpus (HC3) corpus. Our data is created based on their dataset and follows the license of them.
