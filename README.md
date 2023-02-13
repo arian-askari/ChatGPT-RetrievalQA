@@ -56,6 +56,9 @@ The format of the run files of the Answer re-ranking dataset is in TREC run form
 
 ### Analyzing the effectiveness of BM25 on human/ChatGPT responses
 
+Coming soon.
+<!--
+
 | Questions Split | Response Writer | MAP@1000 | NDCG@10 | Recall@10 | Recall@100 | Recall@1000 |
 |-----------------|-----------------|:--------:|:-------:|:---------:|:----------:|:-----------:|
 | Test            | Human           |   .143   |   .184  |    .212   |    .359    |     .520    |
@@ -69,6 +72,7 @@ The format of the run files of the Answer re-ranking dataset is in TREC run form
 
 [ChatGPT-RetrievalQA-Evlaution](https://colab.research.google.com/drive/1ywQaXVcOFGod6WR3Rq4owIxblXmTK7dF?usp=sharing) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ywQaXVcOFGod6WR3Rq4owIxblXmTK7dF?usp=sharing) 
 
+-->
 
 ## BERT re-ranking effectiveness on the Qrels-H Test 
 We train BERT on the responses that are produced by ChatGPT (using queries.tsv, collection_c.tsv, train_c_triples.tsv, valid_c_triples.tsv, qrels_c_train.tsv, and qrels_c_valid.tsv files). Next, we evaluate the effectiveness of BRET as an answer re-ranker model on human responses (using queries.tsv, collection_h.tsv, top_1000_c_test.run, and qrels_h_test.tsv). By doing so, we answer to the following question: "What is the effectiveness of an answer retrieval model that is trained on ChatGPT responses, when we evaluate it on human responses?"
