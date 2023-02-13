@@ -86,6 +86,9 @@ Coming soon
 ## Code for creating the dataset
 [ChatGPT-RetrievalQA-Dataset-Creator](https://colab.research.google.com/drive/1OK8H_SYUD7n_LKTNj33kANP4t2fLcmGt?usp=sharing) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OK8H_SYUD7n_LKTNj33kANP4t2fLcmGt?usp=sharing) 
 
+## Research paper
+This work has been done under the supervision of Prof. [Mohammad Aliannejadi](https://scholar.google.com/citations?user=yiZk6coAAAAJ&hl=en&oi=ao), [Evangelos Kanoulas](https://scholar.google.com/citations?hl=en&user=0HybxV4AAAAJ&view_op=list_works&sortby=pubdate), and [Suzan Verberne](https://scholar.google.com/citations?hl=en&user=-IHDKA0AAAAJ&view_op=list_works&sortby=pubdate) during [my](https://scholar.google.com/citations?user=fp9QtoEAAAAJ&hl=en) visiting research at Information Retrieval Lab at the University of Amsterdam ([IRLab@UvA](https://irlab.science.uva.nl/)). Research paper, Models checkpoints, and more coming soon! 
+
 ## Dataset source and copyright
 Special thanks to the [HC3 team](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) for releasing Human ChatGPT Comparison Corpus (HC3) corpus. Our data is created based on their dataset and follows the license of them.
 
