@@ -92,3 +92,15 @@ This work has been done under the supervision of Prof. [Mohammad Aliannejadi](ht
 ## Dataset source and copyright
 Special thanks to the [HC3 team](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) for releasing Human ChatGPT Comparison Corpus (HC3) corpus. Our data is created based on their dataset and follows the license of them.
 
+## Citation to the Dataset
+
+To cite our data in your work, please use the following bibtex reference:
+
+```bibtex
+@misc{askari2023chatgptdataset,
+  author       = {Askari, Arian and Aliannejadi, Mohammad and Kanoulas, Evangelos and Verberne, Suzan},
+  title        = {ChatGPT-RetrievalQA: A dataset for training and evaluating Question Answering (QA) Retrieval models on ChatGPT responses},
+  year         = 2023,
+  version      = {v1.0}
+}
+```
