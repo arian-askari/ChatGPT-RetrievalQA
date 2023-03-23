@@ -6,3 +6,6 @@ Data is mainly available on google drive and will be available on dropbox soon. 
 18 responses by ChatGPT are empty in the current version of HC3 dataset. The ids of these answers, after we assign ids to ChatGPTresponses, are stored in the 'empty_responses_ids.csv' file. We fix this issue by removing those responses that for their question there is at least one response by ChatGPT, which is not empty. However, for two answers (24020_C_0, 23832_C_0) there are only two empty responses! So we give these questions to ChatGPT and insert the answer of ChatGPT to these two answers manually.
 
 
+### Update March 23th, 2023:
+Apparently, in the HC3 dataset, there are some queries for them there is no response for ChatGPT. We fix this issue in ChatGPT-RetrievalQA soon! 
+Example of this issue: there is no response by ChatGPT for query id 8172 in the collection_C file.
