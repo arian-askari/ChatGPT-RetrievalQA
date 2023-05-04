@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/ChatGPT-RetrievalQA-brightgreen)](https://github.com/arian-askari/ChatGPT-RetrievalQA)
 ![](https://img.shields.io/badge/Language-English-blue)
 
-The repository of paper !["Generating Synthetic Documents for Cross-Encoder Re-Rankers: A Comparative Study of ChatGPT and Human Experts"](https://arxiv.org/abs/2305.02320). A dataset for training and evaluating Question Answering (QA) Retrieval models on ChatGPT responses with the possibility of training/evaluating on real human responses.
+The repository of paper ["Generating Synthetic Documents for Cross-Encoder Re-Rankers: A Comparative Study of ChatGPT and Human Experts"](https://arxiv.org/abs/2305.02320). A dataset for training and evaluating Question Answering (QA) Retrieval models on ChatGPT responses with the possibility of training/evaluating on real human responses.
 
 ## Summary of what we did
 Given a set of questions and corresponding ChatGPT's and humans' responses, we make two separate collections: one from ChatGPT and one from humans. By doing so, we provide several analysis opportunities from an **information retrieval perspective** regarding the usefulness of ChatGPT responses for training retrieval models. We provide the dataset for both end-to-end retrieval and a re-ranking setup. To give flexibility to other analyses, we organize all the files separately for ChatGPT and human responses. 
