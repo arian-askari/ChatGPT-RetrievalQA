@@ -4,6 +4,27 @@
 
 The repository of paper ["Generating Synthetic Documents for Cross-Encoder Re-Rankers: A Comparative Study of ChatGPT and Human Experts"](https://arxiv.org/abs/2305.02320). A dataset for training and evaluating Question Answering (QA) Retrieval models on ChatGPT responses with the possibility of training/evaluating on real human responses.
 
+If you use this dataset, please use the following bibtex references:
+
+```bibtex
+
+@InProceedings{askari2023chatgptcikm2023,
+  author = {Askari, Arian and Aliannejadi, Mohammad and Kanoulas, Evangelos and Verberne, Suzan},
+  titlE = {A Test Collection of Synthetic Documents for Training Rankers: ChatGPT vs. Human Experts},
+  year = 2023,
+  booktitle = {The 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023)},
+}
+
+@InProceedings{askari2023genirsigir2023,
+  author = {Askari, Arian and Aliannejadi, Mohammad and Kanoulas, Evangelos and Verberne, Suzan},
+  title = {Generating Synthetic Documents for Cross-Encoder Re-Rankers: A Comparative Study of ChatGPT and Human Experts},
+  year = 2023,
+  booktitle = {Generative Information Retrieval workshop at ACM SIGIR 2023},
+}
+```
+
+This work has been done under the supervision of Prof. [Mohammad Aliannejadi](https://scholar.google.com/citations?user=yiZk6coAAAAJ&hl=en&oi=ao), [Evangelos Kanoulas](https://scholar.google.com/citations?hl=en&user=0HybxV4AAAAJ&view_op=list_works&sortby=pubdate), and [Suzan Verberne](https://scholar.google.com/citations?hl=en&user=-IHDKA0AAAAJ&view_op=list_works&sortby=pubdate) during [my](https://scholar.google.com/citations?user=fp9QtoEAAAAJ&hl=en) visiting research at Information Retrieval Lab at the University of Amsterdam ([IRLab@UvA](https://irlab.science.uva.nl/)).
+
 ## Summary of what we did
 Given a set of questions and corresponding ChatGPT's and humans' responses, we make two separate collections: one from ChatGPT and one from humans. By doing so, we provide several analysis opportunities from an **information retrieval perspective** regarding the usefulness of ChatGPT responses for training retrieval models. We provide the dataset for both end-to-end retrieval and a re-ranking setup. To give flexibility to other analyses, we organize all the files separately for ChatGPT and human responses. 
 
@@ -88,15 +109,3 @@ Coming soon
 
 ## Dataset source and copyright
 Special thanks to the [HC3 team](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) for releasing Human ChatGPT Comparison Corpus (HC3) corpus. Our data is created based on their dataset and follows the license of them.
-
-## Citation to the research paper
-This work has been done under the supervision of Prof. [Mohammad Aliannejadi](https://scholar.google.com/citations?user=yiZk6coAAAAJ&hl=en&oi=ao), [Evangelos Kanoulas](https://scholar.google.com/citations?hl=en&user=0HybxV4AAAAJ&view_op=list_works&sortby=pubdate), and [Suzan Verberne](https://scholar.google.com/citations?hl=en&user=-IHDKA0AAAAJ&view_op=list_works&sortby=pubdate) during [my](https://scholar.google.com/citations?user=fp9QtoEAAAAJ&hl=en) visiting research at Information Retrieval Lab at the University of Amsterdam ([IRLab@UvA](https://irlab.science.uva.nl/)). To cite our research paper (![paper link](https://arxiv.org/abs/2305.02320)) on this dataset in your work, please use the following bibtex reference:
-
-```bibtex
-@misc{askari2023chatgptdataset,
-  author       = {Askari, Arian and Aliannejadi, Mohammad and Kanoulas, Evangelos and Verberne, Suzan},
-  title        = {Generating Synthetic Documents for Cross-Encoder Re-Rankers: A Comparative Study of ChatGPT and Human Experts},
-  year         = 2023,
-  version      = {v1.0}
-}
-```
