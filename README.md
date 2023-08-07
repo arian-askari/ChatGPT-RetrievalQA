@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/ChatGPT-RetrievalQA-brightgreen)](https://github.com/arian-askari/ChatGPT-RetrievalQA)
 ![](https://img.shields.io/badge/Language-English-blue)
 
-The repository of paper ["Generating Synthetic Documents for Cross-Encoder Re-Rankers: A Comparative Study of ChatGPT and Human Experts"](https://arxiv.org/abs/2305.02320). A dataset for training and evaluating Question Answering (QA) Retrieval models on ChatGPT responses with the possibility of training/evaluating on real human responses.
+The repository of paper ["Generating Synthetic Documents for Cross-Encoder Re-Rankers: A Comparative Study of ChatGPT and Human Experts"](https://arxiv.org/abs/2305.02320) and paper ["A Test Collection of Synthetic Documents for Training Rankers: ChatGPT vs. Human Experts"](https://www.dropbox.com/scl/fi/24lu4nso6837dv1xnbzog/ChatGPT_ResourcePaper.pdf) . A dataset for training and evaluating Question Answering (QA) Retrieval models on ChatGPT responses with the possibility of training/evaluating on real human responses.
 
 If you use this dataset, please use the following bibtex references:
 
